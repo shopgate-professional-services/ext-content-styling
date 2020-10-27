@@ -27,6 +27,14 @@ Where `<cssSelector>` can be any valid css selector and `<glamorStyleObject>` a 
 }
 ```
 
+**Currently available classes in themes:**
+- headline
+- price
+- price-striked
+- product-name
+- rating-stars-empty
+- rating-stars-filled
+
 ## About Shopgate
 
 Shopgate is the leading mobile commerce platform.
