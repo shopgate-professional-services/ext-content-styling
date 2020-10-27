@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "id": "@shopgate-project/content-styling",
+  "components": [
+    {
+      "id": "Subscribers",
+      "path": "frontend/subscriptions.js",
+      "type": "subscribers"
+    }
+  ],
+  "configuration": {
+    "styles": {
+      "type": "admin",
+      "destination": "frontend",
+      "default": {
+        ".headline": {
+          "color": "blue"
+        },
+        ".price": {
+          "color": "yellow"
+        }
+      },
+      "params": {
+        "type": "json" ,
+        "label": "styling"
+      }
+    }
+  },
+  "steps": []
+}
