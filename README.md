@@ -8,9 +8,7 @@ This extension applies given styling to DOM by given css selectors.
 ```json
 {
     styles: {
-        {
-            "<cssSelector>": <glamorStyleObject>,
-        }
+        "<cssSelector>": <glamorStyleObject>
     }
 }
 ```
@@ -20,16 +18,14 @@ Where `<cssSelector>` can be any valid css selector and `<glamorStyleObject>` a 
 ```json
 {
     styles: {
-        {
-            ".headline": {
-              "color": "blue"
-            },
-            ".price": {
-              "color": "yellow"
-            },
-            "body > div": {
-              "fontSize": "15px"
-            }
+        ".headline": {
+          "color": "blue"
+        },
+        ".price": {
+          "color": "yellow"
+        },
+        "body > div": {
+          "fontSize": "15px"
         }
     }
 }
