@@ -13,12 +13,6 @@
       "type": "admin",
       "destination": "frontend",
       "default": {
-        ".headline": {
-          "color": "blue"
-        },
-        ".price": {
-          "color": "yellow"
-        }
       },
       "params": {
         "type": "json" ,
