@@ -6,23 +6,27 @@ This extension applies given styling to DOM by given css selectors.
 ### styles
 **Schema:**
 ```json
-{
-    "<cssSelector>": <glamorStyleObject>,
+styles: {
+    {
+        "<cssSelector>": <glamorStyleObject>,
+    }
 }
 ```
 Where `<cssSelector>` can be any valid css selector and `<glamorStyleObject>` a valid [glamor](https://github.com/threepointone/glamor/blob/master/docs/howto.md) style object
 
 **Example:**
 ```json
-{
-    ".headline": {
-      "color": "blue"
-    },
-    ".price": {
-      "color": "yellow"
-    },
-    "body > div": {
-      "fontSize": "15px"
+styles: {
+    {
+        ".headline": {
+          "color": "blue"
+        },
+        ".price": {
+          "color": "yellow"
+        },
+        "body > div": {
+          "fontSize": "15px"
+        }
     }
 }
 ```
