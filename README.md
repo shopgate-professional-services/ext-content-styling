@@ -6,9 +6,11 @@ This extension applies given styling to DOM by given css selectors.
 ### styles
 **Schema:**
 ```json
-styles: {
-    {
-        "<cssSelector>": <glamorStyleObject>,
+{
+    styles: {
+        {
+            "<cssSelector>": <glamorStyleObject>,
+        }
     }
 }
 ```
@@ -16,16 +18,18 @@ Where `<cssSelector>` can be any valid css selector and `<glamorStyleObject>` a 
 
 **Example:**
 ```json
-styles: {
-    {
-        ".headline": {
-          "color": "blue"
-        },
-        ".price": {
-          "color": "yellow"
-        },
-        "body > div": {
-          "fontSize": "15px"
+{
+    styles: {
+        {
+            ".headline": {
+              "color": "blue"
+            },
+            ".price": {
+              "color": "yellow"
+            },
+            "body > div": {
+              "fontSize": "15px"
+            }
         }
     }
 }
