@@ -38,6 +38,7 @@ Where `<cssSelector>` can be any valid css selector and `<glamorStyleObject>` a 
 - product-name
 - rating-stars-empty
 - rating-stars-filled
+- loading-indicator
 
 ## About Shopgate
 
