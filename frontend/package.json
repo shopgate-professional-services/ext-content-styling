@@ -15,7 +15,6 @@
     "react": "~16.12.0"
   },
   "peerDependencies": {
-    "@shopgate/engage": "^6.13.5",
     "react": "~16.12.0",
     "prop-types": "~15.7.2",
     "glamor": "^2.20.40"
