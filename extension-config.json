@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "id": "@shopgate-project/content-styling",
   "components": [
     {
@@ -12,10 +12,9 @@
     "styles": {
       "type": "admin",
       "destination": "frontend",
-      "default": {
-      },
+      "default": {},
       "params": {
-        "type": "json" ,
+        "type": "json",
         "label": "styling"
       }
     }
