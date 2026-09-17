@@ -1,7 +1,8 @@
 import { css } from 'glamor';
 import { appDidStart$ } from '@shopgate/engage/core';
-import { styles } from './config';
+import config from './config.json';
 
+const { styles } = config;
 /**
  * Subscriptions
  * @param {Function} subscribe subscribe
